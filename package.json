@@ -1,0 +1,26 @@
+{
+  "name": "wbpc4example",
+  "version": "1.0.0",
+  "description": "> 创建文件夹\r > 初始化项目文件安装 webpack",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^1.1.11",
+    "lodash": "^4.17.10",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress --color --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
